@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    background-color: rgb(245, 245, 255);
+    }
+    .container{
+    width: 100px;
+    height: 100px;
+       
+    }
+    .navbox img{
+        padding-left:  240px;
+        margin-right: 1px;
+        height: 40px;
+        max-width: 240rem;
+    }
+    .navbox{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:10px ;
+    }
+    .list{
+    display: flex;
+    margin-left: 0px;
+    align-items: center;
+    gap: 36px;
+    list-style: none;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 24px;
+    font-weight: 500;
+    color: #000;
+    }
+    .container{
+    max-width: 130rem;
+    margin: 0 auto;
+    padding: 0 119px;
+    flex-grow: 1;
+    padding: 90px;
+    }
+    .list-item{
+    cursor: pointer;
+    font-weight: 600;
+    }
+    .list li:hover{
+    color: #6cfb5f;
+    }
+    .button-right{
+    padding: 14px 28px;
+    background-color: #5953c2;
+    border: none;
+    border-radius: 17px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 14px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    cursor: pointer;
+    color: #ffffff;
+    gap: 50px;
+    margin-right: 150px;
+    }
+    .Hero-section-left{
+    color:rgb(2, 2, 79) ;
+    }
+    .span{
+    color: rgb(44, 80, 224);
+    }
+    h1{
+    color: rgb(2, 3, 74);
+    /* display:flex ; */
+    align-items: center;
+    font-size: 36px;
+    font-weight: 700;
+    }
+    .para{
+    margin-top:28px;
+    padding: 5px;
+    line-height: 26px;
+    color: black;
+    font-weight: 500;
+    font-size: 15px;
+    }
+    .hero-section-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 400px;
+    background-image: fixed;
+    background-position: center;
+    background-size: cover;
+    flex-direction: column;
+    height: 300px;
+    width: 300px;
+    }
+    .btn{
+    margin-top:20px ;
+    }
+  
+    section{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .Hero-section-left{
+      width: 50%;
+    }
+    
+  
+    .hero-section-right{
+  
+    }
+    .hero-section-right img{
+    height: 400px;
+    width: 500px;
+    margin-right: 20px;
+    }
